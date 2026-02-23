@@ -1,0 +1,396 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ⭐ Sticky footer setup */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;   /* full screen height */
+  font-family: Arial, sans-serif;
+  background: #fff7f9;
+  color: #333;
+}
+
+/* ===== HEADER ONLY FIX ===== */
+header {
+  background: #ff9aa2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+/* ===== FOOTER ONLY FIX ===== */
+footer {
+  background: #ff9aa2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Content */
+.content h2 {
+  margin-bottom: 15px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #ff6f91;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #ff4c70;
+}
+
+/* Products */
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.product {
+  background: #ffe5eb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+/* Hidden section */
+.hidden {
+  display: none;
+}
+
+/* ⭐ Footer */
+footer {
+  background: #ff9aa2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* Center layout */
+.center-box {
+  text-align: center;
+  padding: 80px 20px;
+}
+body {
+  background-image: url("D:/website/fr1.jpeg");
+  background-size: cover;      /* FULL SCREEN */
+  background-position: center; /* center align */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Big option cards */
+.big-options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.big-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 120px;
+  background: #ffe5eb;
+  border-radius: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.big-card:hover {
+  background: #ffd1dc;
+}
+
+/* Product images */
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/* Center whole page */
+.center-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Big options container */
+.big-options {
+  display: flex;
+  gap: 40px;
+}
+
+/* Big cards */
+.big-card {
+  width: 250px;
+  height: 150px;
+  background: #ffe5eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+/* Center home content */
+.center-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+}
+
+/* Big welcome heading */
+.big-welcome {
+  font-size: 48px;
+}
+/* ===== HEADER ===== */
+
+header {
+  background: #ff9aa2;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* SkinVibe title bigger */
+header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* Navigation links */
+nav a {
+  font-size: 22px;
+  margin: 0 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Center full page */
+.center-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Skin options container */
+.skin-options {
+  display: flex;
+  gap: 40px;
+}
+
+/* Skin cards */
+.skin-card {
+  width: 220px;
+  height: 120px;
+  background: #ffe5eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+.routine-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.routine-container h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.routine-container h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #ff6f91;
+}
+
+/* Image row */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Image box */
+.img-box {
+  width: 220px;
+}
+
+.img-box img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.img-box p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+body {
+  background-color: #fff0f6;
+}
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #fff0f6;  /* light pink */
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: #ff9aa2;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* SkinVibe title */
+header h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+/* Nav center */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Nav links */
+nav a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  flex: 1;   /* pushes footer down */
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #ff9aa2;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 16px;
+}
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #fff0f6;   /* light pink */
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: #ff9aa2;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+
+/* SkinVibe title */
+header h1 {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
+
+/* Nav center */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Nav links */
+nav a {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* ===== MAIN ===== */
+main {
+  flex: 1;   /* pushes footer to bottom */
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #ff9aa2;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-size: 16px;
+}
